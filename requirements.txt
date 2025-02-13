@@ -1,0 +1,15 @@
+Prior to start the project install these libraries in your environment
+pdfminer.six
+python-pptx
+python-docx
+PyMuPDF
+Steps: Best Practices & Tips
+  Exception Handling: Add try-except blocks to catch errors like file not found or read errors.
+  Modular Code: Separate functions for each conversion to enhance maintainability.
+  Requirements Management: Keep requirements.txt up to date by running:
+  bash
+  Copy
+  Edit
+
+  pip3 freeze > requirements.txt
+Testing: Test with various PDF files (simple text, images, complex layouts) to ensure robustness.
